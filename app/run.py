@@ -53,11 +53,6 @@ def index():
     top_category_news_count = news_categories[:10]
     top_category_news_names = list(top_category_news_count.index)
 
-    # Top 10 category distribution Social
-    social_categories = df.loc[df['genre'] == 'social', df.columns[4:]].sum().sort_values(ascending=False)
-    top_category_social_count = social_categories[:10]
-    top_category_social_names = list(top_category_social_count.index)
-
     # create visuals
     # TODO: Below is an example - modify to create your own visuals
     graphs = [
@@ -114,28 +109,6 @@ def index():
             'layout': {
                 'barmode': 'stack',
                 'title': 'Top 10 Categories in News',
-                'yaxis': {
-                    'title': "Count"
-                },
-                'xaxis': {
-                    'title': "Category",
-                    'tickangle': 35,
-                    'categoryorder':'total descending'
-                }
-            }
-        },
-        # GRAPH 4 - Top 10 category distribution Social
-        {
-            'data': [
-                Bar(
-                    x=top_category_social_names,
-                    y=top_category_social_count
-                )
-            ],
-
-            'layout': {
-                'barmode': 'stack',
-                'title': 'Top 10 Categories in Social',
                 'yaxis': {
                     'title': "Count"
                 },
