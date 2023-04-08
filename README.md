@@ -1,9 +1,9 @@
 # Disaster Response Pipeline Project
 
-### Motivation for the Project:
+## Motivation for the Project:
 The aim of this project was to utilize my skills in data engineering to examine disaster data from Figure Eight and develop an API model that can categorize disaster messages. A machine learning pipeline was constructed to classify real messages that were transmitted during disasters, which enabled them to be sent to the appropriate disaster relief agency. A web application was created as part of the project, which allows emergency workers to input new messages and receive classification results across various categories. Additionally, the web app features data visualizations.
 
-### Descriptions of Files:
+## Descriptions of Files:
 app
 
 | - template
@@ -33,7 +33,7 @@ Notebook
 
 README.md
 
-### Project Components
+## Project Components
 This project comprises of three main components that I completed:
 
 1. ETL Pipeline
@@ -62,7 +62,7 @@ As part of this project, I created a Flask web application that allows an emerge
 ![image](https://user-images.githubusercontent.com/74104677/230733075-183dc292-a0b0-43e7-a2d8-fd6a9bc069e9.png)
 
 
-### Instructions:
+## Instructions:
 1. Run the following commands in the project's root directory to set up your database and model.
 
     - To run ETL pipeline that cleans data and stores in database
@@ -74,3 +74,6 @@ As part of this project, I created a Flask web application that allows an emerge
     `python run.py`
 
 3. Go to http://0.0.0.0:3001/
+
+## Credits, Authors, and Gratitude
+We would like to express our gratitude to Udacity for providing the initial code for the web application. We appreciate the effort and time invested in creating the starter code, which served as the foundation for the development of our application. We also want to acknowledge any other sources or individuals who contributed to the project and helped us achieve our goals.
