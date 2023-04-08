@@ -76,4 +76,4 @@ As part of this project, I created a Flask web application that allows an emerge
 3. Go to http://0.0.0.0:3001/
 
 ## Credits, Authors, and Gratitude
-We would like to express our gratitude to Udacity for providing the initial code for the web application. We appreciate the effort and time invested in creating the starter code, which served as the foundation for the development of our application. We also want to acknowledge any other sources or individuals who contributed to the project and helped us achieve our goals.
+I would like to express our gratitude to Udacity for providing the initial code for the web application. We appreciate the effort and time invested in creating the starter code, which served as the foundation for the development of our application. We also want to acknowledge any other sources or individuals who contributed to the project and helped us achieve our goals.
