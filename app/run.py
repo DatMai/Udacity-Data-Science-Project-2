@@ -43,17 +43,17 @@ def index():
     genre_counts = df.groupby('genre').count()['message']
     genre_names = list(genre_counts.index)
     
-    # Top 10 categories
+    # Top 10 category distribution Direct
     direct_categories = df.loc[df['genre'] == 'direct', df.columns[4:]].sum().sort_values(ascending=False)
     top_category_direct_count = direct_categories[:10]
     top_category_direct_names = list(top_category_direct_count.index)
 
-      # Top ten categories
+    # Top 10 category distribution News
     news_categories = df.loc[df['genre'] == 'news', df.columns[4:]].sum().sort_values(ascending=False)
     top_category_news_count = news_categories[:10]
     top_category_news_names = list(top_category_news_count.index)
 
-      # Top ten categories
+    # Top 10 category distribution Social
     social_categories = df.loc[df['genre'] == 'social', df.columns[4:]].sum().sort_values(ascending=False)
     top_category_social_count = social_categories[:10]
     top_category_social_names = list(top_category_social_count.index)
