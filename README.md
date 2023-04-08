@@ -55,9 +55,9 @@ The second component is a Python script named train_classifier.py, which is resp
 
 3. Flask Web Application
 As part of this project, I created a Flask web application that allows an emergency worker to input a new message and receive classification results across several categories. Additionally, the web app displays data visualizations. The following are the outputs of the web app:
-![image](https://user-images.githubusercontent.com/74104677/230732415-e46d000e-fe1c-44bb-9d15-b9ab46618559.png)
 ![image](https://user-images.githubusercontent.com/74104677/230732550-b70eca98-7f25-41e8-9185-5d97bd5a689e.png)
 ![image](https://user-images.githubusercontent.com/74104677/230732590-a209554d-fcde-4ba5-8cb2-92ab76f5fbbe.png)
+![image](https://user-images.githubusercontent.com/74104677/230732415-e46d000e-fe1c-44bb-9d15-b9ab46618559.png)
 ![image](https://user-images.githubusercontent.com/74104677/230733054-92393b07-f439-4f06-b3b1-bda5050e10c0.png)
 ![image](https://user-images.githubusercontent.com/74104677/230733075-183dc292-a0b0-43e7-a2d8-fd6a9bc069e9.png)
 
