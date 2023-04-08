@@ -7,28 +7,39 @@ The aim of this project was to utilize my skills in data engineering to examine 
 app
 
 | - template
+
 | |- master.html # main page of web app
+
 | |- go.html # classification result page of web app
+
 |- run.py # Flask file that runs app
 
 data
 
 |- disaster_categories.csv # data to process
+
 |- disaster_messages.csv # data to process
+
 |- process_data.py # data cleaning pipeline
+
 |- InsertDatabaseName.db # database to save clean data to
 
 models
 
 |- train_classifier.py # machine learning pipeline
+
 |- classifier.pkl # saved model
 
 Notebook
 
 |- categories.csv
+
 |- messages.csv
+
 |- ETL Pipeline Preparation.ipynb
+
 |- ML Pipeline Preparation.ipynb
+
 |-Disaster_Response.db
 
 README.md
